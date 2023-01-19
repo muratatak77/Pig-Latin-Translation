@@ -2,7 +2,6 @@ require './constant'
 
 class Utils
   class << self
-  
     def upcase_whole_word?(word)
       word == word.upcase
     end
